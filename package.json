@@ -1,0 +1,24 @@
+{
+  "name": "js-functions",
+  "version": "1.0.0",
+  "description": "Some cool functions written in JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriosantosf/js-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogeriosantosf/js-functions/issues"
+  },
+  "homepage": "https://github.com/rogeriosantosf/js-functions#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
