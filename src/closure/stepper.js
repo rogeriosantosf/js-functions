@@ -1,4 +1,4 @@
-const stepper = (function () {
+export const stepper = (function () {
   let executions = 0;
 
   return function execute() {
