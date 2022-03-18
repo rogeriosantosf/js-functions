@@ -2,9 +2,7 @@
 // fibo(5) -> 3
 
 export const fibo = (function () {
-  const memo = [];
-  memo[0] = 0;
-  memo[1] = 1;
+  const memo = [0, 1];
 
   return function fibonacci(position) {
     if (memo[position] == null) {
