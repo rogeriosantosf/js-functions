@@ -1,3 +1,8 @@
+// stepper() // 1
+// stepper() // 2
+// stepper() // 3
+// stepper() // 1
+
 export const stepper = (function () {
   let executions = 0;
 
